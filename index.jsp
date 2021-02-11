@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+p {
+  color: black ;
+  text-indent: 30px;
+  font-size: 20px;
+    line-height: 1.8;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: url(red_banner.png);
+  color: white;
+}
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+          margin-left: auto;
+  margin-right: auto;
+ 
+    }
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 60px;
+}
+.h5 {
+  font-size: 20px;
+}
+ .small_font {
+  font-size: 10px;
+}
+ .small-font {
+  font-size: 15px;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 1px;
+  text-align: center;
+  background: #ddd;
+  font-weight: bold;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+ 
+  
+</div>
+
+<div class="navbar">
+  <a href="#">Resume</a>
+  <a href="projects.jsp">Projects</a>
+  <a href="#">Blog</a>
+  <a href="#" class="right">contacts</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h1>Ahmed Aboukoura</h1>
+    <h5>Personal Portfolio </h5>
+    <div class="fakeimg" style="height:200px;"><img style=" border-radius: 50%;"src="ahmedphoto.jpg"  ></div>
+    <p class="small-font">Software Enginner, Ex-Teacher Assistant, Ex-Dental Student</p>
+    <h3>Connect with me</h3>
+  
+    <div class="fakeimg" style="height:60px;background-color:#f1f1f1;" style="margin-left:display: block; auto; margin-right: auto;"><a href="https://www.linkedin.com/in/ahmed-aboukoura-017573168/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px;color:#0E76A8"></a></i></div>
+    <div class="fakeimg" style="height:60px;background-color:#f1f1f1;" style="margin-left:display: block; auto; margin-right: auto;"><a href="https://www.instagram.com/ahmedsalahkoura/" target="_blank"><i class="fa fa-instagram" style="font-size:30px;color:#E1306C"></a></i></div>
+    <div class="fakeimg" style="height:60px;background-color:#f1f1f1;" style="margin-left:display: block; auto; margin-right: auto;"><a href="https://twitter.com/ahmed_koura1993" target="_blank"><i class="fa fa-twitter" style="font-size:30px;color:#00ACEE"></a></i></div>
+  </div>
+  <div class="main">
+    <h1>From Dental school to the computer Science  program: the story of why i'm pursing a carrier in Tech.</h1>
+    <h5 >By: Ahmed Aboukoura, Dec 7, 2020</h5>
+    <div class="fakeimg" style="height:400 px; background-color:white;"><img src="banner.jpg"  ></div>
+    <h5 >By: Ahmed Aboukoura, Dec 7, 2020</h5>
+    <p> &nbsp; &nbsp; &nbsp; At the beginning, I just like to Thank you for stooping by to check my profile, and in this short read, I will tell you some important things about me, that I believe my potential employer, or work-mates should know about me&#8212; I promise to keep it short and direct too. First, I like to tell you why I have chosen this career, but, before that, I like to give you some brief history and background about me.   </p>
+    <p> &nbsp; &nbsp; &nbsp;My name is Ahmed Aboukoura, and I have grown up in Alexandria, Egypt, as well as Riyadh, Saudi Arabia. My father used to work there as a physician for twenty years, before immigrating to the United States, five years ago. Me, my sister, and my mother, used to go to my dad every summer, and spend the summer break there, and then go back when the school starts. I used to have a-lot of fun there. For you who do not know much about this city, It is a vibrant beautiful city with different people from different cultures. Also, it&#39;s where I have learned to create my first website&#8212; by help from my dad&#39;s co-worker&#8212; it happened to be a website I created for my school. I was at grade five at that time. I remember that I used an IDE called front-page which used to look more like the word application than an IDE&#39;s. but, it was amazing for me at that time.It was simple enough to allow me to write things, and just publish it. And hard enough to allow me to see the HTML code, and edit it, Alongside adding some CSS and PHP. Then, I hosted the Website on an early cloud hosting service called GeoCities. And just like that I developed a <a href="https://ais-eg.net/">Website</a> for my school, that everyone loved, and found it so hopeful for providing an important information for new student, as well as tells people about the school. That was so helpful in my school case because it was an international school that follows three systems of high school; the American ,the British  and Egyptian System. So, that experience, was my first encounter of how technology can make our life easier, and better. The school have used it for year too, and when they changed, they kept some features of what I have made.</p>
+    <div class="fakeimg" style="height:400 px; background-color:white"><img src="alex.jpg"  >  
+    </b>
+    </div>
+    <p>Then came my high school years, and now I have a clear idea that I want to go to college, and major in computer science, that&#39;s when it came the time for me to choose my classes. I chose A.L Math, A.L biology, as well O.L IT, because I was following the British system (IGCSE)&#8212;because it is more difficult than the American System, and the Egyptian colleges appreciate it more. Here is a <a href="https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-advanced/cambridge-international-as-and-a-levels/">Link</a> for the IGCSE High school diploma program if you interesting to check It out. Then came my results, and I got As in most O-Level , and A-Level classes, which means that my grade is good enough to apply for dental school, at Egypt. Then I applied, and got accepted in three school, I also applied for an Engineering school and got accepted for their Computer Science program. Then, I chose to go to dental school&#8212;I know what you think about, of that I should have followed my passion and go to the C.S program&#8212;But I have to tell you, that was a really tough decision for me. That’s because I really wanted to go to the Engineering school, but the Tech jobs in Egypt at that time was almost non-exist. That was back in 2011, and I had no plans to come to the United States, that have came later.</p>
+          <div class="fakeimg"  style="height:500px; background-color:white; width:600px;  margin-left: auto; margin-right: auto;"><a id='qITmT4qzS3BPwJ9D-SGbkQ' class='gie-single' href='http://www.gettyimages.com/detail/137702182' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'qITmT4qzS3BPwJ9D-SGbkQ',sig:'HsBcRiYba0rMfxu7sn2D3qki3AtZzy0YUhoPaEzerMM=',w:'594px',h:'396px',items:'137702182',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></div><br>
+      
+    <p>After that, I started the dental school, and am really enjoying it, and then comes something that have changed everything to my family, and to many families through the middle-east, the Arab Spring. i&#39;m not going to talk about it&#8212; i don't want to get political on this writing&#8212; but, i just like to mention that technology for the second time showed me that it&#39;s not just can make our life easier, and better, it can be a real force for good; for changing thing that without it, it couldn't be change for many year. I never seen, or known any other presidnet for Egypt other than Hosni Mubark since i was born ant till that time , and he was rulling for thirty years, and now he steps down because of a <a href="https://www.facebook.com/ElShaheeed/">Facebook group</a> that created by a former Google Engineer, Wael Ghoneim. that was super powerful for my brain to digiest at that time.  </p>
+    <div class="fakeimg" style="height:400 px; background-color:white;"><img src="10years.jpg"  ></div>
+    <p>Then, four years pass while am in dental school, and then the time comes for My families green card visa appointment that was sponsored by my uncle. We all Went and, got the visas, and decided to immigrate to the United States. Afterwards, We arrive here, and my sister goes to High school , and then I was kind of lost, because I just realized that I didn&#39;t finish dental school in Egypt, which means that I can&#39;t do the two years international program for foreign dentists, and at the same time I don&#39;t have a bachelor degree to apply for regular dental school. Then I decided that I will enroll in college and then finish my bachelor studies then go to dental school—if I got accepted. Then I applied to Rutgers University and got accepted, and then that&#39;s when I realized from talking with advisors at the school, Families, and friends, that the Software Engineers are on a high demand in the U.S.A, and that&#39;s when I felt that finally my dream will be true, and that I can study the thing that I am really passionate about, and that there is a chance that I can get employed at this thing&#8212;I know that&#39;s sounds silly&#8212;but really in 2010 in Egypt, it was an easier to find a needle in haystack, than finding a tech job.     </p>
+  </div>
+</div>
+
+<div class="footer">
+  <p> &#169; Ahmedaboukoura.me</p>
+  <p class="small_font">I didn't use template for this Webiste. Feel free to use the source code as you wish.</p>
+</div>
+
+</body>
+</html>
