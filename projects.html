@@ -255,7 +255,7 @@ h1 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 40px;
+  padding: 30px;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -345,10 +345,10 @@ mark2:hover{
 </div>
 
 <div class="navbar">
-  <a href="#">Resume</a>
-  <a href="#">Projects</a>
-  <a href="#">Blog</a>
-  <a href="#" class="right">contacts</a>
+  <a href="https://ahmedaboukoura.github.io/">Home</a>
+  <a href="https://ahmedaboukoura.github.io/Ahmed_Aboukoura_Resume.pdf">Resume</a>
+  <a href="https://ahmedaboukoura.github.io/projects.html">Projects</a>
+
 </div>
 <div >
 
@@ -360,14 +360,13 @@ mark2:hover{
 <div id="myBtnContainer" style ="  margin: 0 auto;  display: flex;
   justify-content: center;">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('nature')"> Whatever</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
+  <button class="btn" onclick="filterSelection('java')"> Java language</button>
+  <button class="btn" onclick="filterSelection('clanguage')"> C language</button>
 </div>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-  <div class="column nature">
+  <div class="column java">
     <div class="content">
 <div class="container">
 
@@ -410,8 +409,8 @@ mark2:hover{
     </div>
   </div>
 
-  <div class="column ">
-    <div class="content">
+  <div class="column clanguage">
+    <div class="content  ">
 <div class="container">
 
     <img src="pa5_2.PNG" alt="Lights" style="width:100%">
@@ -421,8 +420,9 @@ mark2:hover{
  <h2>Cache Simulator Application written in C</h2> 
 <mark2><a style="color:white;text-decoration: none; " target="_blank" href="https://bitbucket.org/ahmedkoura1992/pa5/src/master/">view on bitbucket</a></mark2><br><br>
 <p Style="font-weight: bold;">
-. It simulate Memory read,
+ It simulate Memory read,
 Calculate the number of caches reads, writes,hits, misseswith prefetching, and without prefetching. <br>
+
 </p>
 <p Style="font-weight: bold;" >
  Enviroment <mark> Linux</mark><br>
@@ -431,7 +431,7 @@ Calculate the number of caches reads, writes,hits, misseswith prefetching, and w
 
     </div>
   </div>
-  <div class="column ">
+  <div class="column java">
     <div class="content">
       <div class="container">
 
@@ -463,14 +463,76 @@ Calculate the number of caches reads, writes,hits, misseswith prefetching, and w
  <h2>Chess</h2> 
 <mark2><a style="color:white;text-decoration: none; " target="_blank" href="https://github.com/ahmedaboukoura/chesss">view on Github</a></mark2><br><br>
 <p Style="font-weight: bold;">
-. It simulate Memory read,
-Calculate the number of caches reads, writes,hits, misseswith prefetching, and without prefetching. <br>
+Chess game that do all valid rules and movement for all pieces. Includes Check, Checkmate, Stalemate, Draw, Resign, Enpassant, Promotion, Castling.<br><br>
+
+ <br>
+ Back-End <mark>Java</mark> <br><br>
+ Skills <mark>Object-oriented programming</mark> <mark>Eclipse IDE</mark><br><br>
 </p>
   
 </div>
 <!-- END GRID -->
 </div>
+  <div class="column java">
+    <div class="content">
+      <div class="container">
 
+  <div class="mySlides2">
+    <div class="numbertext">1 / 4</div>
+    <img src="Andriod-3.PNG" alt="Lights" style="width:50%; height:50%">
+
+ </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">2 / 4</div>
+    <img src="Andriod-6.PNG" alt="Lights" style="width:50%; height:50%">
+
+  </div>
+
+  <div class="mySlides2">
+    <div class="numbertext">3 / 4</div>
+    <img src="Andriod-4.PNG" alt="Lights" style="width:50%; height:50%">
+
+  </div>
+    <div class="mySlides2">
+    <div class="numbertext">3 / 4</div>
+    <img src="Andriod-7.PNG" alt="Lights" style="width:50%; height:50%">
+
+  </div>
+    <div class="mySlides2">
+    <div class="numbertext">3 / 4</div>
+    <img src="Andriod2.PNG" alt="Lights" style="width:50%; height:50%">
+
+  </div>
+    <div class="mySlides2">
+    <div class="numbertext">3 / 4</div>
+    <img src="Andriod-5.PNG" alt="Lights" style="width:50%; height:50%">
+
+  </div>
+
+   
+      <a class="prev" onclick="plusSlides2(-1)" style="color:red;">&#10094;</a>
+  <a class="next" onclick="plusSlides2(1)"style="color:red;">&#10095;</a>
+
+
+</div>
+
+
+ <h2>Mini Andriod Application</h2> 
+<mark2><a style="color:white;text-decoration: none; " target="_blank" href="https://bitbucket.org/ahmedkoura1992/andriodproject/src/master/app/src/main/java/com/example/andriodproject/">view on BitBucket</a></mark2><br><br>
+<p Style="font-weight: bold;">
+• Login, then open photo Albums<br>
+• Delete, Create, Photo Albums.<br>
+• Add,Delete Photos in An Album as well as Moving them between Albums.<br><br>
+
+ <br>
+ Back-End <mark>Java</mark> <br><br>
+ Skills <mark>Andriod-Studio</mark><br><br>
+</p>
+  
+</div>
+<!-- END GRID -->
+</div>
 <!-- END MAIN -->
 </div>
 
@@ -580,6 +642,36 @@ function showSlides1(n) {
   slides[slideIndex1-1].style.display = "block";
   dots[slideIndex1-1].className += " active";
   captionText.innerHTML = dots[slideIndex1-1].alt;
+}
+</script>
+<script>
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex2-1].style.display = "block";
+  dots[slideIndex2-1].className += " active";
+  captionText.innerHTML = dots[slideIndex2-1].alt;
 }
 </script>
 </body>
